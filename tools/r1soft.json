@@ -30,7 +30,9 @@
           "sudo yum install r1soft-cdp-enterprise-server -y",
           "sudo r1soft-setup --user admin --pass  redhat   --http-port 8080",
           "sudo systemctl restart cdp-server",
-          "sudo systemctl enable cdp-server"
+          "sudo systemctl enable cdp-server",
+          "sudo curl -O https://inspector-agent.amazonaws.com/linux/latest/install",
+          "sudo bash install https://docs.aws.amazon.com/inspector/latest/userguide/inspector_installing-uninstalling-agents.html"
          ]
         },
       {
